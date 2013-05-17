@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
                 type: "POST",
                 url: "../sistema/controller/MuralController.class.php",
                 cache:false,
-  	        data: dados,
+                  data: dados,
                 success: function(data)
                 { 
                     Mural(); 
