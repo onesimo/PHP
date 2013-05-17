@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
                 type: "POST",
                 url: "../sistema/controller/MuralController.class.php",
                 cache:false,
-  			        data: dados,
+  	        data: dados,
                 success: function(data)
                 { 
                     Mural(); 
@@ -18,5 +18,5 @@ jQuery(document).ready(function() {
 
 <form method='POST' id='form_mural'>  
 <textarea style='width:93%;' rows='3' cols='0' required maxlength='115' name='texto_mural'></textarea>
-<button type='submit' class='btn btn-mini btn-primary'>Salvar</button></center>
+<button type='submit' class='btn btn-mini btn-primary'>Salvar</button>
 </form>
