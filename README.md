@@ -1,4 +1,1 @@
-php
-===
-
-Testes em php
+Resitório de códigos PHP
