@@ -1,0 +1,7 @@
+Classe Car {
+
+  public function _call($MethodName, $Args){ 
+  
+  }
+  
+}
