@@ -1,5 +1,13 @@
 <?php
-/* news:
+/* 
+Type Hiting
+
+array
+class
+callable
+
+news:
+
 bool
 float
 int
@@ -14,4 +22,4 @@ class Test
 }
 
 $Test = new Test;
-echo $Test->get("test"); //
+echo $Test->get("test"); // fatal error
